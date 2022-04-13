@@ -5,6 +5,7 @@
   src: local('Azonix Regular'), url('fonts/Azonix.woff') format('woff');
 }
 
+
 body {
   font-family: 'Azonix Regular';
 }
@@ -282,4 +283,17 @@ body {
   cursor: default;
   box-shadow: 0 5px 10px 0px #333;
   transition: 0.5s ease transform;
+}
+
+.student {
+  position: relative;
+  color: white;
+  margin-top: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.student h1 {
+  font-size: 300%;
+  font-weight: bold;
 }
