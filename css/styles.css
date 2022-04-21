@@ -1,32 +1,29 @@
-@font-face {
-  font-family: 'Azonix Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Azonix Regular'), url('../fonts/Azonix.woff') format('woff');
-}
-
-
-body {
-  font-family: 'Azonix Regular';
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
 #title {
-  background-color: #6f00ff;
   color: white;
 }
 
 .navbar-brand {
-  font-size: 2.5rem;
   font-weight: bold;
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .navbar {
-  padding: 0 0 0.5rem;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.navbar img {
+  height: 10%;
+  width: 10%;
+  padding-right: 15px;
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 15px;
 }
 
 .nav-link {
@@ -48,16 +45,16 @@ body {
   z-index: -1;
 }
 
-.my-nav {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .heading {
   position: relative;
   margin-top: 250px;
   color: white;
   font-size: 300%;
+}
+
+.heading h1 {
+  font-weight: bold;
+  font-size: 150%;
 }
 
 .about-us {
@@ -81,102 +78,50 @@ body {
 .our-team {
   position: relative;
   align-self: center;
-  padding: 10%;
+  padding-left: 11%;
+  padding-bottom: 2%;
   color: white;
 }
 .our-team h1 {
   font-size: 300%;
   font-weight: 900;
-  margin-bottom: 30px;
   line-height: 1.5;
 }
-.our-team p {
+
+.team img {
+  height: 300px;
+  width: 225px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.mem-row {
+  margin-left: 130px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 60%;
+}
+
+.mem-hover {
+  left: 100%;
+  background-color: white;
+  right: auto;
+  display: none;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
-.featured {
-  align-self: center;
-}
-.featured .slider {
-  list-style: none;
-  padding: 0;
-}
-.featured .slider li {
-  height: 400px;
-  width: 300px;
-  border-radius: 4px;
-  background-color: #00bcd4;
-  display: flex;
-}
-.featured .slider li h2 {
-  margin-top: auto;
-  background: #fff;
-  width: 100%;
-  padding: 20px 20px;
-  display: block;
-  bottom: 0;
-}
-.featured .slider li:nth-child(n) {
-  background-color: #3599db;
-}
-.featured .slider li:nth-child(2n) {
-  background-color: #e61b77;
-}
-.featured .slider li:nth-child(3n) {
-  background-color: #00bcd4;
-}
-.featured .slider li:nth-child(4n) {
-  background-color: #f4b251;
-}
-.featured .slider li:nth-child(5n) {
-  background-color: #8e4497;
-}
-
-/* STACKED CARDS */
-.stacked-cards {
-  position: relative;
-}
-
-.stacked-cards ul {
-  position: relative;
-  max-width: 60%;
-  margin: 0 auto;
-  padding-left: 0;
-}
-
-.stacked-cards li {
-  margin-top: 5px;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px 0px #333;
-  list-style: none;
-  width: 65%;
-  position: absolute;
-  left: 50%;
-  transition: 0.5s ease transform;
-}
-
-.stacked-cards li:after {
-  bottom: 0;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.stacked-cards li img {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  z-index: 4;
-}
-
-.stacked-cards li.active {
-  cursor: default;
-  box-shadow: 0 5px 10px 0px #333;
-  transition: 0.5s ease transform;
+@media (max-width: 980px)
+.member-hover {
+    width: 100%;
+    padding: 20px 45px 20px 20px;
 }
 
 .eve {
@@ -187,21 +132,49 @@ body {
 .eve-in {
   position: relative;
   align-self: center;
-  padding: 10%;
+  padding-left: 11%;
+  padding-bottom: 5%;
   color: white;
 }
 .eve-in h1 {
   font-size: 300%;
   font-weight: 900;
-  margin-bottom: 30px;
   line-height: 1.5;
 }
-.eve-in p {
+
+.eve img {
+  height: 300px;
+  width: 225px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.eve-row {
+  margin-left: 130px;
+}
+.eve-hover {
+  left: 100%;
+  background-color: white;
+  right: auto;
+  display: none;
+  padding: 10px;
   margin-bottom: 10px;
+}
+
+.eve-hover button {
+  top: 100px;
+}
+
+@media (max-width: 980px)
+.eve-hover {
+    width: 100%;
+    padding: 20px 45px 20px 20px;
 }
 
 .feature {
   align-self: center;
+  padding-left: 8%;
 }
 .feature .slide {
   list-style: none;
@@ -298,6 +271,19 @@ body {
   font-weight: bold;
 }
 
+.sponsor {
+  position: relative;
+  color: white;
+  margin-top: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.sponsor h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
 .form {
   position: relative;
   color: white;
@@ -365,4 +351,119 @@ body {
 }
 @media only screen and (max-width: 767px){
     .btn{ margin-bottom: 20px; }
+}
+
+.social a {
+  color: white;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  position: fixed;
+  left: 2px;
+  bottom: 20px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #0a0117;
+  margin: 300px 0 0 0;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
