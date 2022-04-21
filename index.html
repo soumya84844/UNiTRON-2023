@@ -12,9 +12,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
   <script src="https://kit.fontawesome.com/1a67f6e526.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <script type="text/javascript" src="js/team.js"></script>
   <script type="text/javascript" src="js/events.js"></script>
   <script type="text/javascript" src="js/scroll.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/ham.js"></script>
 </head>
 
 <body>
@@ -24,10 +29,10 @@
     </video>
   </div>
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid nav-scroll">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 my-nav">
-        <a class="navbar-brand" href="">Unitron</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href=""><img src="Unitron.png" alt="">UN<span>i</span>TRON</a>
+        <button id="ham" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,10 +47,10 @@
               <a class="nav-link" href="##studs" onclick="return follow(this)">Student Ambassador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="##teams" onclick="return follow(this)">Our Team</a>
+              <a class="nav-link" href="##spons" onclick="return follow(this)">Sponsors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="##contc" onclick="return follow(this)">Contact Us</a>
+              <a class="nav-link" href="##teams" onclick="return follow(this)">Our Team</a>
             </li>
           </ul>
         </div>
@@ -58,7 +63,7 @@
     <div class="container heading">
       <h3>TIC TECH TOE</h3>
       <h4>PRESENTS</h4>
-      <h1>UNITRON</h1>
+      <h1>UN<span>i</span>TRON</h1>
       <h4>THE OFFICIAL TECH FEST OF FIT</h4>
     </div>
 
@@ -76,27 +81,97 @@
       <div class="row eve-in">
         <h1>EVENTS</h1>
       </div>
-      <div class="row feature cards">
-        <ul class="slide">
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-          <li class="it">
-            <h2>EVENT NAME</h2>
-          </li>
-        </ul>
+      <div class="row eve-row">
+        <div class="col-lg-3">
+          <img src="team/1.jpeg" alt="">
+          <div class="center">
+            <h3>Sourasish Chakraborty</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/2.jpg" alt="">
+          <div class="center">
+            <h3>Nabarka Roy</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/3.jpg" alt="">
+          <div class="center">
+            <h3>Ina Guha</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/4.jpg" alt="">
+          <div class="center">
+            <h3>Nilanjana Ray</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+      </div>
+      <div class="row eve-row">
+        <div class="col-lg-3">
+          <img src="team/5.png" alt="">
+          <div class="center">
+            <h3>Rupsha Das</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/6.jpg" alt="">
+          <div class="center">
+            <h3>Debasmita Ghosh</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/7.jpg" alt="">
+          <div class="center">
+            <h3>Monojit Saha</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
+        <div class="col-lg-3">
+          <img src="team/8.jpg" alt="">
+          <div class="center">
+            <h3>Debjit Ghosh</h3>
+          </div>
+        </div>
+        <div class="eve-hover">
+          <h3>EVENT NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
+        </div>
       </div>
     </div>
 
@@ -108,78 +183,271 @@
         consequat elementum, elit augue cursus libero, ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu risus vitae quam tempus auctor in eu augue. Morbi tincidunt
         turpis luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue aliquet interdum eu mauris.
       </p>
+      <center><button type="submit" class="btn btn-lg">Apply Now</button></center>
+    </div>
+
+    <div class="container sponsor" id="spons">
+      <h1>SPONSORS</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor. Aliquam maximus ante at neque iaculis tincidunt. Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum et sit amet odio. Aliquam tellus metus,
+        ornare sit amet odio in, interdum eleifend mi. Maecenas tristique magna nec sapien tempor viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus, vitae aliquam sem malesuada eget. Cras congue urna risus. Sed pharetra, ante eget
+        consequat elementum, elit augue cursus libero, ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu risus vitae quam tempus auctor in eu augue. Morbi tincidunt
+        turpis luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue aliquet interdum eu mauris.
+      </p>
     </div>
 
     <div class="container team" id="teams">
-      <div class="row">
-        <div class="col our-team">
-          <h1>OUR TEAM</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="row our-team">
+        <h1>OUR TEAM</h1>
+      </div>
+      <div class="row mem-row">
+        <div class="col-lg-3 mem">
+          <img src="team/1.jpeg" alt="">
+          <div class="center">
+            <h3>Sourasish Chakraborty</h3>
+          </div>
         </div>
-        <div class="col featured stacked-cards">
-          <ul class="slider">
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-            <li class="item">
-              <h2>NAME</h2>
-            </li>
-          </ul>
+        <div class="mem-hover">
+          <h3>Sourasish Chakraborty</h3>
+          <h4>President</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 7003070838</p>
+          <p>Email ID - sourasish.unitron@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/2.jpg" alt="">
+          <div class="center">
+            <h3>Nabarka Roy</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Nabarka Roy</h3>
+          <h4>Secretary</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 6290714118</p>
+          <p>Email ID - nabarkaroy.20.8@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/3.jpg" alt="">
+          <div class="center">
+            <h3>Ina Guha</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Ina Guha</h3>
+          <h4>Administrator</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9073233734</p>
+          <p>Email ID - inaguha.ttt@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/4.jpg" alt="">
+          <div class="center">
+            <h3>Nilanjana Ray</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Nilanjana Ray</h3>
+          <h4>Student Coordinator</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 7044124301</p>
+          <p>Email ID - ray.nilanjana24@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mem-row">
+        <div class="col-lg-3 mem">
+          <img src="team/5.png" alt="">
+          <div class="center">
+            <h3>Rupsha Das</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Rupsha Das</h3>
+          <h4>Treasurer</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 6289555675</p>
+          <p>Email ID - rupshadas25@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/6.jpg" alt="">
+          <div class="center">
+            <h3>Debasmita Ghosh</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Debasmita Ghosh</h3>
+          <h4>Design Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9163335749</p>
+          <p>Email ID - debasmita.ghosh.fit.ece18@teamfuture.in</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/7.jpg" alt="">
+          <div class="center">
+            <h3>Monojit Saha</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Monojit Saha</h3>
+          <h4>Technical Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 6291042707</p>
+          <p>Email ID - monojitsaha3000@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/8.jpg" alt="">
+          <div class="center">
+            <h3>Debjit Ghosh</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Debjit Ghosh</h3>
+          <h4>Technical Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9563262149</p>
+          <p>Email ID - debjit956326@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mem-row">
+        <div class="col-lg-3 mem">
+          <img src="team/9.jpg" alt="">
+          <div class="center">
+            <h3>Subhankar Shit</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Subhankar Shit</h3>
+          <h4>Technical Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9733028646</p>
+          <p>Email ID - subhankarshit26@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/10.jpg" alt="">
+          <div class="center">
+            <h3>Dipanjana Lodh</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Dipanjana Lodh</h3>
+          <h4>Non-Technical Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9830113037</p>
+          <p>Email ID - dipanjanaalodh@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/11.jpg" alt="">
+          <div class="center">
+            <h3>Somesh Kamar</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Somesh Kamar</h3>
+          <h4>Non-Technical Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9073231788</p>
+          <p>Email ID - someshkamar@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/12.jpeg" alt="">
+          <div class="center">
+            <h3>Dipayan Saha</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Dipayan Saha</h3>
+          <h4>Gaming Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 8582849887</p>
+          <p>Email ID - dipayansaha.ttt@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mem-row">
+        <div class="col-lg-3 mem">
+          <img src="team/13.jpg" alt="">
+          <div class="center">
+            <h3>Adarsha Paul</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Adarsha Paul</h3>
+          <h4>Gaming Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 9073409899</p>
+          <p>Email ID - paladarsha07@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/14.jpeg" alt="">
+          <div class="center">
+            <h3>Swapnil Chakraborty</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Swapnil Chakraborty</h3>
+          <h4>Sponsor Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 8207287242</p>
+          <p>Email ID - chakrabortyswapnil6@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/15.jpeg" alt="">
+          <div class="center">
+            <h3>Mousumi Mitra</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Mousumi Mitra</h3>
+          <h4>Sponsor Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 7596924156</p>
+          <p>Email ID - mitravarsha99@gmail.com</p>
+        </div>
+        <div class="col-lg-3 mem">
+          <img src="team/16.png" alt="">
+          <div class="center">
+            <h3>Mujahid Rahaman</h3>
+          </div>
+        </div>
+        <div class="mem-hover">
+          <h3>Mujahid Rahaman</h3>
+          <h4>Event Head</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
+          <p>Contact No. - 8343896186</p>
+          <p>Email ID - mujahid.rahaman.fit.ee18@teamfuture.in</p>
         </div>
       </div>
     </div>
 
-    <div class="container form" id="contc">
-      <h1>CONTACT US</h1>
-      <form onsubmit="sendEmail(); reset(); return false;">
-        <div class="form-group">
-          <label for="formGroupName">Name</label>
-          <input type="text" class="form-control" id="formGroupName" placeholder="Enter Your Name">
-        </div>
-        <div class="form-group">
-          <label for="formGroupPhoneNo">Phone No.</label>
-          <input type="text" class="form-control" id="formGroupPhoneNo" placeholder="Enter Your Phone No.">
-        </div>
-        <div class="form-group">
-          <label for="inputEmail">Email Address</label>
-          <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
-        </div>
-        <div class="form-group">
-          <label for="Textarea">Message</label>
-          <textarea class="form-control" id="Textarea" rows="1" placeholder="Enter Your Message"></textarea>
-        </div>
-        <center><button type="submit" class="btn btn-lg">Submit</button></center>
-      </form>
+    <div class="container social">
+      <div class="container">
+        <ul class="wrapper">
+          <li class="icon facebook" onclick="location.href='https://www.facebook.com/UNiTRON22'">
+            <span class="tooltip">Facebook</span>
+            <span><i class="fab fa-facebook-f"></i></span>
+          </li>
+          <li class="icon instagram" onclick="location.href='https://www.instagram.com/unitron_fit'">
+            <span class="tooltip">Instagram</span>
+            <span><i class="fab fa-instagram"></i></span>
+          </li>
+          <li class="icon twitter" onclick="location.href='https://twitter.com/unitrn'">
+            <span class="tooltip">Twitter</span>
+            <span><i class="fab fa-twitter"></i></span>
+          </li>
+        </ul>
+      </div>
     </div>
-
-  <div class="container social">
-    <div class="container">
-      <ul class="wrapper">
-        <li class="icon facebook">
-          <span class="tooltip">Facebook</span>
-          <span><i class="fab fa-facebook-f"></i></span>
-        </li>
-        <li class="icon instagram">
-          <span class="tooltip">Instagram</span>
-          <span><i class="fab fa-instagram"></i></span>
-        </li>
-      </ul>
-    </div>
-  </div>
 
   </section>
+
+  <div class="footer">
+    <p>Contact No. - 7003496453</p>
+    <p>Email ID - unitron.fit@gmail.com</p>
+    <p>Future Institute of Technology</p>
+    <p>Address - 240, Boral Main Road, Garia, Kolkata, West Bengal - 700154</p>
+    <a href="https://goo.gl/maps/rLYkxjqa3ende3Xx6">Google Maps Link</a>
+    <p></p>
+    <p>© 2022 UNiTRON @ Future Institute of Technology</p>
+  </div>
 
   <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
   <script type="text/javascript" src="js/email.js"></script>
