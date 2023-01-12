@@ -7,10 +7,105 @@
     <title>UNiTRON 2023</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 35%, rgba(0,212,255,1) 100%);
+            color : whitesmoke;
+        }
+        
+        #test {
+            font-size: 123px;
+            color : white;
+            text-align: center;
+            padding: 50px;
+            margin: auto;
+        }
+
+        .container {
+            font-size: 45px;
+        }
+
+        #id1 {
+            color : white;
+            font-size: 50px;
+            border: 2px solid white;
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        .image-left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px
+
+        }
+
+        .image-left img {
+            width: 136px;
+        }
+
+        .image-left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .info {
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 40px;
+        }
+
+        .navbar li a {
+
+            color: white;
+            padding: 34px 23px;
+        }
+
+    </style>
 
 </head>
 <body>
-    <h1 id="test">Initial Template</h1>
+   <header class="header">
+    <div class="image-left">
+        <img src="res\img\UnitronLogo.png" alt="Image Not Available">
+        <div>Unitron</div>
+    </div>
+    <div class="info">
+        <ul class="navbar">
+            <li> <a href="#" >Home</a></li>
+            <li> <a href="#" >About Us</a></li>
+            <li> <a href="#" >Events</a></li>
+            <li> <a href="#" >Contact Us</a></li>
+        </ul>
+    </div>
+   </header>
+   <h1 id="test">Unitron 2k23</h1>
+    <div class="container">
+        <div class="container" id="id1">
+            Dummy Template for Unitron.
+        </div>
+        <div class="container" id="id2">
+            <ul class="item" >
+                <li>Robotics</li>
+                <li>Coding</li>
+                <li>Water Rocket</li>
+                <li>Design</li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 <script type="text/javascript" src="js/jquery.slim.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
