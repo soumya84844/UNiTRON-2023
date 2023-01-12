@@ -1,10 +1,20 @@
 #bgVideo {
-    position: fixed;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #bgVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #bgVideo {
+        width: auto;
+        height: 100%;
+    }
 }
 #ttt {
     width: 0;
