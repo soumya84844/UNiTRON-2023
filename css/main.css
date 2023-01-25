@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 #bgVideo {
     position: absolute;
     right: 0;
@@ -16,16 +19,31 @@
         height: 100%;
     }
 }
+.logo {
+    padding: 30px 0;
+}
 #ttt {
-    width: 0;
-    height: 0;
-    border-radius: 70px;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100px;
     margin-right: 20px;
 }
 .text {
-    font-size: 50px;
+    font-size: 2rem;
     color: aliceblue;
     font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 5px 0;
+}
+#text2 {
+    font-size: 6rem;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .intro {
     align-items: center;
@@ -37,6 +55,7 @@
     width: 120px;
     height: 120px;
     animation: spin 0.5s linear infinite;
+    margin: 0 auto;
 }
   
 @keyframes spin {
