@@ -26,14 +26,14 @@
     margin-right: 20px;
 }
 .text {
-    font-size: 2rem;
+    font-size: 2vw;
     color: aliceblue;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     padding: 5px 0;
 }
 #text2 {
-    font-size: 6rem;
+    font-size: 7vw;
     background: red;
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
     background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
