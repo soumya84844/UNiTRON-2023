@@ -1,451 +1,619 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>UNITRON'23</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>UNITRON</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-  <script src="https://kit.fontawesome.com/1a67f6e526.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="js/scroll.js"></script>
-  <script type="text/javascript" src="js/navbar.js"></script>
-</head>
-
-<body>
-  <div class="vid">
-    <video autoplay muted loop class="bg-video">
-      <source src="videos/bg-vid.mp4" type="video/mp4">
-    </video>
-  </div>
-  <section id="title">
-    <div class="container-fluid nav-scroll">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 my-nav">
-        <a class="navbar-brand" href=""><img src="Unitron.png" alt="">UN<span>i</span>TRON</a>
-        <button id="ham" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="##about" onclick="return follow(this)">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="##event" onclick="return follow(this)">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="##studs" onclick="return follow(this)">Student Ambassador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="##spons" onclick="return follow(this)">Sponsors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="##teams" onclick="return follow(this)">Our Team</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-  </section>
-
-  <section class="body">
-    <div class="container heading">
-      <h3>TIC TECH TOE</h3>
-      <h4>PRESENTS</h4>
-      <h1>UN<span>i</span>TRON</h1>
-      <h4>THE OFFICIAL TECH FEST OF FIT</h4>
-    </div>
-
-    <div class="container about-us" id="about">
-      <h1>ABOUT US</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor. Aliquam maximus ante at neque iaculis tincidunt. Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum et sit amet odio. Aliquam tellus metus,
-        ornare sit amet odio in, interdum eleifend mi. Maecenas tristique magna nec sapien tempor viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus, vitae aliquam sem malesuada eget. Cras congue urna risus. Sed pharetra, ante eget
-        consequat elementum, elit augue cursus libero, ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu risus vitae quam tempus auctor in eu augue. Morbi tincidunt
-        turpis luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue aliquet interdum eu mauris.
-      </p>
-    </div>
-
-    <div class="container eve" id="event">
-      <div class="row eve-in">
-        <h1>EVENTS</h1>
+  <body>
+    <!-- <div class="preload">
+    <video src="videos/intro-vid.mp4" autoplay muted></video>
+  </div> -->
+    <main class="content">
+      <div class="vid">
+        <video autoplay muted loop class="bg-video">
+          <source src="videos/bg-vid.mp4" type="video/mp4" />
+        </video>
       </div>
-      <div class="row eve-row">
-        <div class="col-lg-3">
-          <img src="team/1.jpeg" alt="">
-          <div class="center">
-            <h3>Sourasish Chakraborty</h3>
-          </div>
+      <section id="title">
+        <div class="container-fluid nav-scroll">
+          <nav
+            class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 my-nav"
+          >
+            <a class="navbar-brand" href=""
+              ><img src="img/Unitron.png" alt="" />UN<span>i</span>TRON'23</a
+            >
+            <button
+              id="ham"
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##homee"
+                    onclick="return follow(this)"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##about"
+                    onclick="return follow(this)"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##event"
+                    onclick="return follow(this)"
+                    >Events</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##studs"
+                    onclick="return follow(this)"
+                    >Student Ambassador</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##spons"
+                    onclick="return follow(this)"
+                    >Sponsors</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="##teams"
+                    onclick="return follow(this)"
+                    >Our Team</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/2.jpg" alt="">
-          <div class="center">
-            <h3>Nabarka Roy</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/3.jpg" alt="">
-          <div class="center">
-            <h3>Ina Guha</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/4.jpg" alt="">
-          <div class="center">
-            <h3>Nilanjana Ray</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-      </div>
-      <div class="row eve-row">
-        <div class="col-lg-3">
-          <img src="team/5.png" alt="">
-          <div class="center">
-            <h3>Rupsha Das</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/6.jpg" alt="">
-          <div class="center">
-            <h3>Debasmita Ghosh</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/7.jpg" alt="">
-          <div class="center">
-            <h3>Monojit Saha</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-        <div class="col-lg-3">
-          <img src="team/8.jpg" alt="">
-          <div class="center">
-            <h3>Debjit Ghosh</h3>
-          </div>
-        </div>
-        <div class="eve-hover">
-          <h3>EVENT NAME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <center><button type="submit" class="btn btn-lg">View Rules</button></center>
-        </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="container student" id="studs">
-      <h1>STUDENT AMBASSADOR</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor. Aliquam maximus ante at neque iaculis tincidunt. Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum et sit amet odio. Aliquam tellus metus,
-        ornare sit amet odio in, interdum eleifend mi. Maecenas tristique magna nec sapien tempor viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus, vitae aliquam sem malesuada eget. Cras congue urna risus. Sed pharetra, ante eget
-        consequat elementum, elit augue cursus libero, ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu risus vitae quam tempus auctor in eu augue. Morbi tincidunt
-        turpis luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue aliquet interdum eu mauris.
-      </p>
-      <center><button type="submit" class="btn btn-lg">Apply Now</button></center>
-    </div>
+      <section class="body">
+        <div class="container heading" id="homee">
+          <h3>TIC TECH TOE</h3>
+          <h4>PRESENTS</h4>
+          <h1>UN<span>i</span>TRON 2023</h1>
+          <h4>THE OFFICIAL TECH FEST OF FIT</h4>
+        </div>
 
-    <div class="container sponsor" id="spons">
-      <h1>SPONSORS</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor. Aliquam maximus ante at neque iaculis tincidunt. Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum et sit amet odio. Aliquam tellus metus,
-        ornare sit amet odio in, interdum eleifend mi. Maecenas tristique magna nec sapien tempor viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus, vitae aliquam sem malesuada eget. Cras congue urna risus. Sed pharetra, ante eget
-        consequat elementum, elit augue cursus libero, ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu risus vitae quam tempus auctor in eu augue. Morbi tincidunt
-        turpis luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue aliquet interdum eu mauris.
-      </p>
-    </div>
+        <div class="container about-us" id="about">
+          <h1 class="ml-auto">Participate & Win Exciting Prizes</h1>
+          <div class="row ml-auto">
+            <div class="col-sm">
+              <h4><i class="fa-solid fa-gear"></i>  Technical</h4>
+              <p>
+                These events motivate students to participate in extra
+                cirricular activities based entirely on tech and enrich their
+                knowledge and experience in the area.
+              </p>
+            </div>
+            <div class="col-sm">
+              <h4><i class="fa-solid fa-users"></i>  Non-Technical</h4>
+              <p>
+                These events emphasize on nourishing students' leadership,
+                oratory, vocabulary and team management skills as stepping
+                stones for their future endeavours.
+              </p>
+            </div>
+            <div class="col-sm">
+              <h4><i class="fa-solid fa-gamepad"></i>  Gaming</h4>
+              <p>
+                What can be a better source of refreshment other than gaming?
+                This section allows students to prove their prowess in the genre
+                of games they are habituated to while giving them a platform to
+                relax themselves from the daily push and pull.
+              </p>
+            </div>
+            <div class="col-sm">
+              <h4><i class="fa-solid fa-code"></i>  Coding</h4>
+              <p>
+                Conceptual thinking with good typing accuracy gives students the
+                arena to fight real virtual world problems and here we are
+                providing a simulation to those challenges.
+              </p>
+            </div>
+          </div>
+        </div>
 
-    <div class="container team" id="teams">
-      <div class="row our-team">
-        <h1>OUR TEAM</h1>
-      </div>
-      <div class="row mem-row">
-        <div class="col-lg-3 mem">
-          <img src="team/1.jpeg" alt="">
-          <div class="center">
-            <h3>Sourasish Chakraborty</h3>
+        <div class="container eve">
+          <div class="row eve-in" id="event">
+            <h1 class="m-auto">EVENTS</h1>
+          </div>
+          <div class="row eve-row">
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+          </div>
+          <div class="row eve-row">
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
+            <div class="col-lg-3">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="eve-hover">
+              <h3>EVENT NAME</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                quis gravida dolor.
+              </p>
+              <center>
+                <button type="submit" class="btn btn-lg">View Rules</button>
+              </center>
+            </div>
           </div>
         </div>
-        <div class="mem-hover">
-          <h3>Sourasish Chakraborty</h3>
-          <h4>President</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 7003070838</p>
-          <p>Email ID - sourasish.unitron@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/2.jpg" alt="">
-          <div class="center">
-            <h3>Nabarka Roy</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Nabarka Roy</h3>
-          <h4>Secretary</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 6290714118</p>
-          <p>Email ID - nabarkaroy.20.8@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/3.jpg" alt="">
-          <div class="center">
-            <h3>Ina Guha</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Ina Guha</h3>
-          <h4>Administrator</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9073233734</p>
-          <p>Email ID - inaguha.ttt@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/4.jpg" alt="">
-          <div class="center">
-            <h3>Nilanjana Ray</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Nilanjana Ray</h3>
-          <h4>Student Coordinator</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 7044124301</p>
-          <p>Email ID - ray.nilanjana24@gmail.com</p>
-        </div>
-      </div>
-      <div class="row mem-row">
-        <div class="col-lg-3 mem">
-          <img src="team/5.png" alt="">
-          <div class="center">
-            <h3>Rupsha Das</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Rupsha Das</h3>
-          <h4>Treasurer</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 6289555675</p>
-          <p>Email ID - rupshadas25@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/6.jpg" alt="">
-          <div class="center">
-            <h3>Debasmita Ghosh</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Debasmita Ghosh</h3>
-          <h4>Design Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9163335749</p>
-          <p>Email ID - debasmita.ghosh.fit.ece18@teamfuture.in</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/7.jpg" alt="">
-          <div class="center">
-            <h3>Monojit Saha</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Monojit Saha</h3>
-          <h4>Technical Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 6291042707</p>
-          <p>Email ID - monojitsaha3000@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/8.jpg" alt="">
-          <div class="center">
-            <h3>Debjit Ghosh</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Debjit Ghosh</h3>
-          <h4>Technical Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9563262149</p>
-          <p>Email ID - debjit956326@gmail.com</p>
-        </div>
-      </div>
-      <div class="row mem-row">
-        <div class="col-lg-3 mem">
-          <img src="team/9.jpg" alt="">
-          <div class="center">
-            <h3>Subhankar Shit</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Subhankar Shit</h3>
-          <h4>Technical Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9733028646</p>
-          <p>Email ID - subhankarshit26@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/10.jpg" alt="">
-          <div class="center">
-            <h3>Dipanjana Lodh</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Dipanjana Lodh</h3>
-          <h4>Non-Technical Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9830113037</p>
-          <p>Email ID - dipanjanaalodh@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/11.jpg" alt="">
-          <div class="center">
-            <h3>Somesh Kamar</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Somesh Kamar</h3>
-          <h4>Non-Technical Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9073231788</p>
-          <p>Email ID - someshkamar@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/12.jpeg" alt="">
-          <div class="center">
-            <h3>Dipayan Saha</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Dipayan Saha</h3>
-          <h4>Gaming Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 8582849887</p>
-          <p>Email ID - dipayansaha.ttt@gmail.com</p>
-        </div>
-      </div>
-      <div class="row mem-row">
-        <div class="col-lg-3 mem">
-          <img src="team/13.jpg" alt="">
-          <div class="center">
-            <h3>Adarsha Paul</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Adarsha Paul</h3>
-          <h4>Gaming Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 9073409899</p>
-          <p>Email ID - paladarsha07@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/14.jpeg" alt="">
-          <div class="center">
-            <h3>Swapnil Chakraborty</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Swapnil Chakraborty</h3>
-          <h4>Sponsor Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 8207287242</p>
-          <p>Email ID - chakrabortyswapnil6@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/15.jpeg" alt="">
-          <div class="center">
-            <h3>Mousumi Mitra</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Mousumi Mitra</h3>
-          <h4>Sponsor Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 7596924156</p>
-          <p>Email ID - mitravarsha99@gmail.com</p>
-        </div>
-        <div class="col-lg-3 mem">
-          <img src="team/16.png" alt="">
-          <div class="center">
-            <h3>Mujahid Rahaman</h3>
-          </div>
-        </div>
-        <div class="mem-hover">
-          <h3>Mujahid Rahaman</h3>
-          <h4>Event Head</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis gravida dolor.</p>
-          <p>Contact No. - 8343896186</p>
-          <p>Email ID - mujahid.rahaman.fit.ee18@teamfuture.in</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="container social">
-      <div class="container">
-        <ul class="wrapper">
-          <li class="icon facebook" onclick="location.href='https://www.facebook.com/UNiTRON22'">
-            <span class="tooltip">Facebook</span>
-            <span><i class="fab fa-facebook-f"></i></span>
-          </li>
-          <li class="icon instagram" onclick="location.href='https://www.instagram.com/unitron_fit'">
-            <span class="tooltip">Instagram</span>
-            <span><i class="fab fa-instagram"></i></span>
-          </li>
-          <li class="icon twitter" onclick="location.href='https://twitter.com/unitrn'">
+        <div class="container student" id="studs">
+          <h1 class="ml-auto">STUDENT AMBASSADOR</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis
+            gravida dolor. Aliquam maximus ante at neque iaculis tincidunt.
+            Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum
+            et sit amet odio. Aliquam tellus metus, ornare sit amet odio in,
+            interdum eleifend mi. Maecenas tristique magna nec sapien tempor
+            viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus,
+            vitae aliquam sem malesuada eget. Cras congue urna risus. Sed
+            pharetra, ante eget consequat elementum, elit augue cursus libero,
+            ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla
+            dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu
+            risus vitae quam tempus auctor in eu augue. Morbi tincidunt turpis
+            luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue
+            aliquet interdum eu mauris.
+          </p>
+          <center>
+            <button type="submit" class="btn btn-lg">Apply Now</button>
+          </center>
+        </div>
+
+        <div class="container sponsor" id="spons">
+          <h1 class="ml-auto">SPONSORS</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis
+            gravida dolor. Aliquam maximus ante at neque iaculis tincidunt.
+            Quisque ornare aliquet sodales. Ut non augue ac lorem blandit rutrum
+            et sit amet odio. Aliquam tellus metus, ornare sit amet odio in,
+            interdum eleifend mi. Maecenas tristique magna nec sapien tempor
+            viverra. Morbi vitae neque tortor. Etiam ultricies lacinia risus,
+            vitae aliquam sem malesuada eget. Cras congue urna risus. Sed
+            pharetra, ante eget consequat elementum, elit augue cursus libero,
+            ut imperdiet felis orci eu ipsum. Sed efficitur lacus eu nulla
+            dignissim, vitae dapibus ligula fermentum. Cras eu sem quam. In eu
+            risus vitae quam tempus auctor in eu augue. Morbi tincidunt turpis
+            luctus odio sollicitudin ornare. Nunc sit amet nisi ut tellus congue
+            aliquet interdum eu mauris.
+          </p>
+        </div>
+
+        <div class="container team">
+          <div class="row our-team" id="teams">
+            <h1 class="m-auto">OUR TEAM</h1>
+          </div>
+          <div class="row mem-row">
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mem-row">
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mem-row">
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="row mem-row">
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="col-lg-3 mem">
+              <img src="team/pic.jpg" alt="" />
+              <div class="center">
+                <h3></h3>
+              </div>
+            </div>
+            <div class="mem-hover">
+              <h3></h3>
+              <h4></h4>
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container social">
+          <div class="container">
+            <ul class="wrapper">
+              <li
+                class="icon facebook"
+                onclick="window.open('https://www.facebook.com/unitron.fit')"
+              >
+                <span class="tooltip">Facebook</span>
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+              <li
+                class="icon instagram"
+                onclick="window.open('https://www.instagram.com/unitron.fit/')"
+              >
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+              <!-- <li class="icon twitter" onclick="location.href=">
             <span class="tooltip">Twitter</span>
             <span><i class="fab fa-twitter"></i></span>
-          </li>
-        </ul>
+          </li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <p>Contact No. -</p>
+        <p>Email ID - unitron.fit@gmail.com</p>
+        <p>Future Institute of Technology</p>
+        <p>
+          Address - 240, Boral Main Road, Garia, Kolkata, West Bengal - 700154
+        </p>
+        <a href="https://goo.gl/maps/rLYkxjqa3ende3Xx6">Google Maps Link</a>
+        <p></p>
+        <p>© 2023 UNiTRON @ Future Institute of Technology</p>
       </div>
-    </div>
-
-  </section>
-
-  <div class="footer">
-    <p>Contact No. - 7003496453</p>
-    <p>Email ID - unitron.fit@gmail.com</p>
-    <p>Future Institute of Technology</p>
-    <p>Address - 240, Boral Main Road, Garia, Kolkata, West Bengal - 700154</p>
-    <a href="https://goo.gl/maps/rLYkxjqa3ende3Xx6">Google Maps Link</a>
-    <p></p>
-    <p>© 2022 UNiTRON @ Future Institute of Technology</p>
-  </div>
-
-</body>
-
+    </main>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  <script
+    src="https://kit.fontawesome.com/1a67f6e526.js"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <!-- <script type="text/javascript" src="js/all.min.js"></script> -->
 </html>
