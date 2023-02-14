@@ -146,8 +146,24 @@ body {
   margin: 5px 0;
 }
 
+/* .eve-row {
+  margin-left: 130px;
+} */
+/* .eve-hover {
+  left: 100%;
+  background-color: white;
+  right: auto;
+  display: none;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+
+/* .eve-hover button {
+  top: 100px;
+} 
+
 .eve img {
-}
+} */
 
 .student {
   color: white;
@@ -163,21 +179,18 @@ body {
   font-weight: bold;
 }
 
-/* .eve-row {
-  margin-left: 130px;
-} */
-/* .eve-hover {
-  left: 100%;
-  background-color: white;
-  right: auto;
-  display: none;
-  padding: 10px;
-  margin-bottom: 10px;
-} */
+.sponsor {
+  position: relative;
+  color: white;
+  margin-top: 200px;
+  width: 100%;
+}
 
-/* .eve-hover button {
-  top: 100px;
-} */
+.sponsor h1 {
+  font-size: 300%;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
 .team {
   margin-top: 500px;
@@ -318,19 +331,6 @@ body {
   box-shadow: 0 5px 10px 0px #333;
   transition: 0.5s ease transform;
 } */
-
-.sponsor {
-  position: relative;
-  color: white;
-  margin-top: 500px;
-  width: 100%;
-  padding: 20px;
-}
-
-.sponsor h1 {
-  font-size: 300%;
-  font-weight: bold;
-}
 
 .form {
   position: relative;
