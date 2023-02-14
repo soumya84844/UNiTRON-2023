@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 body {
@@ -62,14 +63,28 @@ body::-webkit-scrollbar-track {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  opacity: 50%;
+  opacity: 30%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px
 }
 
 .heading {
   position: relative;
-  margin-top: 250px;
+  margin-top: 200px;
   color: white;
   font-size: 300%;
+}
+
+.heading .row {
+  display: block;
 }
 
 .heading h1 {
@@ -78,11 +93,9 @@ body::-webkit-scrollbar-track {
 }
 
 .about-us {
-  position: relative;
   color: white;
-  margin-top: 500px;
+  margin-top: 200px;
   width: 100%;
-  padding: 20px;
 }
 
 .about-us h1 {
@@ -101,6 +114,56 @@ body::-webkit-scrollbar-track {
   padding: 10px;
   margin-right: 10px;
 }
+
+.eve {
+  margin-top: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  
+}
+
+.eve-in {
+  margin-bottom: 30px;
+  color: white;
+}
+.eve-in h1 {
+  font-size: 300%;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* .eve-row {
+  width: 100%;
+} */
+
+.eve-row div {
+  overflow: hidden;
+  width: 100%;
+}
+
+.img {
+  margin: 5px 0;
+}
+
+.eve img {
+}
+
+/* .eve-row {
+  margin-left: 130px;
+} */
+/* .eve-hover {
+  left: 100%;
+  background-color: white;
+  right: auto;
+  display: none;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+
+/* .eve-hover button {
+  top: 100px;
+} */
 
 .team {
   margin-top: 500px;
@@ -151,60 +214,12 @@ body::-webkit-scrollbar-track {
 }
 
 /* @media (max-width: 980px)
-.member-hover {
-    width: 100%;
-    padding: 20px 45px 20px 20px;
-} */
-
-.eve {
-  margin-top: 500px;
-  margin-left: 10px;
-  position: relative;
-}
-
-.eve-in {
-  position: relative;
-  align-self: center;
-  padding-left: 11%;
-  padding-bottom: 5%;
-  color: white;
-}
-.eve-in h1 {
-  font-size: 300%;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-.eve img {
-  height: 200px;
-  width: 225px;
-  margin-bottom: 20px;
-  padding: 0;
-}
-
-.eve-row {
-  margin-left: 130px;
-}
-.eve-hover {
-  left: 100%;
-  background-color: white;
-  right: auto;
-  display: none;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.eve-hover button {
-  top: 100px;
-}
-
-/* @media (max-width: 980px)
 .eve-hover {
     width: 100%;
     padding: 20px 45px 20px 20px;
 } */
 
-.feature {
+/* .feature {
   align-self: center;
   padding-left: 8%;
 }
@@ -241,10 +256,10 @@ body::-webkit-scrollbar-track {
 }
 .feature .slide li:nth-child(5n) {
   background-color: #8e4497;
-}
+} */
 
 /* STACKED CARDS */
-.cards {
+/* .cards {
   position: relative;
 }
 
@@ -288,7 +303,7 @@ body::-webkit-scrollbar-track {
   cursor: default;
   box-shadow: 0 5px 10px 0px #333;
   transition: 0.5s ease transform;
-}
+} */
 
 .student {
   position: relative;
