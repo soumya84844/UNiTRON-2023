@@ -193,15 +193,15 @@ body {
 }
 
 .team {
-  margin-top: 500px;
+  margin-top: 250px;
   margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  
 }
 
 .our-team {
-  position: relative;
-  align-self: center;
-  padding-left: 11%;
-  padding-bottom: 2%;
+  margin-bottom: 30px;
   color: white;
 }
 .our-team h1 {
@@ -210,35 +210,37 @@ body {
   line-height: 1.5;
 }
 
-.team img {
-  height: 300px;
-  width: 225px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  padding: 0;
+/* .team-row {
+  width: 100%;
+} */
+
+.team-row div {
+  overflow: hidden;
+  width: 100%;
 }
 
-.mem-row {
+.img {
+  margin: 5px 0;
+}
+
+/* .team-row {
   margin-left: 130px;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  opacity: 60%;
-}
-
-.mem-hover {
+} */
+/* .team-hover {
   left: 100%;
   background-color: white;
   right: auto;
   display: none;
   padding: 10px;
   margin-bottom: 10px;
-}
+} */
+
+/* .team-hover button {
+  top: 100px;
+} 
+
+.eve img {
+} */
 
 /* @media (max-width: 980px)
 .eve-hover {
