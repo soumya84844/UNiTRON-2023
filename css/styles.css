@@ -144,7 +144,8 @@ body {
 
 .img {
   margin: 5px 0;
-}
+  padding: 0 5px;
+} /* 223 by 147 */
 
 /* .eve-row {
   margin-left: 130px;
