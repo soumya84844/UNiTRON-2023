@@ -147,7 +147,7 @@ body {
 .img {
   position: relative;
   max-width: 280px;
-  height: 188px;
+  height: 195px;
 } /* 223 by 147 */
 
 .card {
@@ -170,11 +170,11 @@ body {
   height: 100%;
   backface-visibility: hidden;
   background: transparent;
+  background: white;
 }
 
 .front .img-fluid {
   width: 100%;
-  height: 100%;
 }
 
 .back {
