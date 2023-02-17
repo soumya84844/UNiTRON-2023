@@ -170,11 +170,13 @@ body {
   height: 100%;
   backface-visibility: hidden;
   background: transparent;
-  background: white;
+  background: #00ffff;
 }
 
 .front .img-fluid {
   width: 100%;
+  max-height: 169.328px;
+  overflow: hidden;
 }
 
 .back {
@@ -548,17 +550,25 @@ body {
   color: #ffffff;
 }
 
-.wrapper .twitter:hover,
+
+/* .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
   background: #1da1f2;
   color: #ffffff;
-}
+} */
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-  background: #e4405f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: #ffffff;
+}
+
+.wrapper .mail:hover,
+.wrapper .mail:hover .tooltip,
+.wrapper .mail:hover .tooltip::before {
+  background: #ff0000;
   color: #ffffff;
 }
 
@@ -587,3 +597,17 @@ body {
   padding-bottom: 10px;
   padding-top: 20px;
 }
+
+.footer1 {
+  text-align:;
+  color: white;
+  background-color: #7019e9;
+  margin: 300px 0 0 0;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
