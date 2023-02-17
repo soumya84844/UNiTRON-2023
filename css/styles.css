@@ -117,9 +117,10 @@ body {
 
 .eve {
   margin-top: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  /* width: 100%; */
   
 }
 
@@ -134,19 +135,71 @@ body {
 }
 
 /* .eve-row {
-  width: 100%;
+  margin: -20px;
 } */
 
-.eve-row div {
-  overflow: hidden;
-  width: 100%;
-}
+/* .eve-row div {
+  /* overflow: hidden;
+  width: 100%; */
+  /* justify-content: space-between; 
+}  */
 
 .img {
-  margin: 5px 0;
-  padding: 0 5px;
+  position: relative;
+  max-width: 280px;
+  height: 188px;
 } /* 223 by 147 */
 
+.card {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border: none;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: transparent;
+}
+
+.front .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: cyan;
+  color: #000000;
+  transform: rotateY(180deg);
+}
+
+.back .btn-lg {
+  width: fit-content;
+  margin: 4px;
+  font-size: medium;
+}
+
+.back h4 {
+  font-weight: 900;
+}
+
+.back .btn-lg::first-letter {
+  text-transform: capitalize;
+}
 /* .eve-row {
   margin-left: 130px;
 } */
