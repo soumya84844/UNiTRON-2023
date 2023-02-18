@@ -54,6 +54,17 @@ body::-webkit-scrollbar-track {
   font-weight: bold;
 }
 
+.navbar .link {
+  color: white !important;
+}
+
+.navbar .link:hover {
+  background: cyan !important;
+  color: #000000 !important;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
 .ml-auto {
   text-align: center;
   color: white;
@@ -284,6 +295,7 @@ body {
 
 .team-row .img {
   min-height: 400px;
+  min-width: 255px;
   width: 255px;
   background: cyan;
   padding: 0;
@@ -291,6 +303,7 @@ body {
 
 .team-row img {
   height: 255px;
+  width: 255px;
 }
 
 .team-row .img .container {

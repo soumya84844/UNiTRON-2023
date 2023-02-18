@@ -1,0 +1,1 @@
+window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
