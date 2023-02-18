@@ -204,9 +204,9 @@ body {
 }
 
 .back .btn-lg {
-  width: fit-content;
+  width: min-content;
   margin: 4px;
-  font-size: medium;
+  font-size: small;
 }
 
 .back h4 {
