@@ -1,6 +1,8 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
 }
 
 body {
@@ -277,6 +279,30 @@ body {
 
 .img {
   margin: 5px 0;
+}
+
+.team-row .img {
+  min-height: 400px;
+  width: 255px;
+  background: cyan;
+  padding: 0;
+}
+
+.team-row img {
+  height: 255px;
+}
+
+.team-row .img .container {
+  padding: 5px 0 0 20px;
+  margin: 0;
+}
+
+.team-row .img .container h4 {
+  font-weight: 600;
+}
+
+.team-row .img .container h5 {
+  font-weight: 100;
 }
 
 /* .team-row {
@@ -561,6 +587,7 @@ body {
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
+  background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   color: #ffffff;
 }
@@ -599,7 +626,7 @@ body {
 }
 
 .footer1 {
-  text-align:;
+  /* text-align:; */
   color: white;
   background-color: #7019e9;
   margin: 300px 0 0 0;
