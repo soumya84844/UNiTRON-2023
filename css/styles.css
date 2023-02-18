@@ -240,6 +240,14 @@ body {
   margin-top: 200px;
 }
 
+.student .btn::first-line {
+  text-transform: capitalize;
+}
+
+.student .btn {
+  margin-top: 0;
+}
+
 .student h1 {
   font-size: 300%;
   font-weight: bold;
@@ -249,11 +257,22 @@ body {
   font-weight: bold;
 }
 
+.student h3 {
+  color: #00ffff;
+  padding: 10px 0;
+}
+
 .sponsor {
   position: relative;
   color: white;
   margin-top: 200px;
   width: 100%;
+}
+
+.sponsor .img{
+  min-width: 350px;
+  padding: 0;
+  margin-bottom: 65px;
 }
 
 .sponsor h1 {
@@ -297,7 +316,7 @@ body {
   min-height: 400px;
   min-width: 255px;
   width: 255px;
-  background: cyan;
+  background: rgb(52, 52, 52);
   padding: 0;
 }
 
@@ -313,10 +332,20 @@ body {
 
 .team-row .img .container h4 {
   font-weight: 600;
+  color: #ffffff;
+  margin: 0;
 }
 
 .team-row .img .container h5 {
+  /* font-weight: 700; */
+  font-size: 4mm;
+  color: cyan;
+  margin: 5;
+}
+
+.team-row .img .container h6 {
   font-weight: 100;
+  color: #ffffff;
 }
 
 .coord, .crew {
@@ -324,13 +353,15 @@ body {
 }
 
 .coord h2, .crew h2 {
-  color: cyan;
+  color: rgb(255, 255, 255);
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.coord p, .crew p {
+.coord h3, .crew h3 {
   color: white;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 
 /* .team-row {
