@@ -88,8 +88,9 @@ let x = setInterval(function() {
 const btn = document.querySelectorAll(".btn");
 
 btn.forEach(b => {
-    tippy(b, {
-        content : `${b.innerText} Coming Soon!`,
-        theme : 'gradient'
-    });
+    if(b.innerText != 'apply now') {
+        tippy(b, {
+            content : `${b.innerText} Coming Soon!`,
+        });
+    }
 });

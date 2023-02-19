@@ -870,10 +870,10 @@ body {
   color: #ffffff;
 }
 
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background: #cd201f;
+.wrapper .maps:hover,
+.wrapper .maps:hover .tooltip,
+.wrapper .maps:hover .tooltip::before {
+  background: #ff6800;
   color: #ffffff;
 }
 
@@ -892,7 +892,7 @@ body {
 .footer1 {
   /* text-align:; */
   color: white;
-  background-color: #7019e9;
+  /* background-color: #7019e9; */
   margin: 300px 0 0 0;
   padding: 0;
   bottom: 0;
