@@ -466,6 +466,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   width: 100%;
+  padding: 0;
   
 }
 
@@ -498,15 +499,15 @@ body {
 
 .team-row .img {
   min-height: 400px;
-  min-width: 255px;
-  width: 255px;
+  min-width: 247px;
+  width: 247px;
   background: rgb(52, 52, 52);
-  padding: 0;
+  padding: 0 !important;
 }
 
 .team-row img {
-  height: 255px;
-  width: 255px;
+  height: 247px;
+  width: 247px;
 }
 
 .team-row .img .container {
