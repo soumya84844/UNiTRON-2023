@@ -72,13 +72,24 @@ let x = setInterval(function() {
     minutes.innerHTML = m + "<br><span>Minutes</span>";
     seconds.innerHTML = s + "<br><span>Seconds</span>";
 
-    dd.style.strokeDashoffset = 440 - (440 * d) / 365;
+    dd.style.strokeDashoffset = 440 - (440 * d) / 30;
     hh.style.strokeDashoffset = 440 - (440 * h) / 24;
     mm.style.strokeDashoffset = 440 - (440 * m) / 60;
     ss.style.strokeDashoffset = 440 - (440 * s) / 60;
 
-    day_dot.style.transform = `rotateZ(${d * 0.986}deg)`;
+    day_dot.style.transform = `rotateZ(${d * 12}deg)`;
     hr_dot.style.transform = `rotateZ(${h * 15}deg)`;
     min_dot.style.transform = `rotateZ(${m * 6}deg)`;
     sec_dot.style.transform = `rotateZ(${s * 6}deg)`;
+});
+
+
+//TOOLTIPS
+const btn = document.querySelectorAll(".btn");
+
+btn.forEach(b => {
+    tippy(b, {
+        content : `${b.innerText} Coming Soon!`,
+        theme : 'gradient'
+    });
 });

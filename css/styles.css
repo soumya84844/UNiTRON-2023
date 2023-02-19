@@ -354,7 +354,11 @@ body {
   border: none;
 }
 
-.card:hover {
+/* .card:hover {
+  transform: rotateY(180deg);
+} */
+
+.img:hover .card {
   transform: rotateY(180deg);
 }
 
