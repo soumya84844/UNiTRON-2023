@@ -553,6 +553,22 @@ body {
   margin-bottom: 5px;
 }
 
+.coord .r {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+}
+
+.coord .r .c1 {
+  text-align: left;
+}
+
+.coord .r .c2 {
+  text-align: right;
+}
+
 /* .team-row {
   margin-left: 130px;
 } */
