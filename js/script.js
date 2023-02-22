@@ -88,7 +88,8 @@ let x = setInterval(function() {
 const btn = document.querySelectorAll(".btn");
 
 btn.forEach(b => {
-    if(b.innerText != 'apply now') {
+    // console.log(b.onclick);
+    if(! b.onclick) {
         tippy(b, {
             content : `${b.innerText} Coming Soon!`,
         });

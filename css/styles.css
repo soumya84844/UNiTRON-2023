@@ -298,6 +298,16 @@ body {
   margin-bottom: 50px;
 }
 
+.about-us .headline {
+  font-size: 1.4rem;
+}
+
+.about-us .headline span {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .about-us .row p, h4 {
   text-align: left;
   padding: 10px 0;

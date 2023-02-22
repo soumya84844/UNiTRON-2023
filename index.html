@@ -2,24 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=1000">
+    <meta name="viewport" content="width=1000" />
     <title>UNITRON 2023</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
+    /> -->
     <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+    <link rel="stylesheet" href="css/font.css" />
   </head>
 
   <body>
@@ -44,7 +46,11 @@
       </div>
       <div id="overlay"></div> -->
 
-      <section id="title" class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s">
+      <section
+        id="title"
+        class="wow animate__animated animate__fadeIn"
+        data-wow-duration="0.5s"
+      >
         <div class="container-fluid nav-scroll">
           <nav
             class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 my-nav"
@@ -68,9 +74,8 @@
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a
-                  class="nav-link link"
-                  href="#home"
-                    onclick="return follow(this)"
+                    class="nav-link link"
+                    href="#home"
                     >Home</a
                   >
                 </li>
@@ -78,7 +83,6 @@
                   <a
                     class="link nav-link"
                     href="#about"
-                    onclick="return follow(this)"
                     >About Us</a
                   >
                 </li>
@@ -86,7 +90,6 @@
                   <a
                     class="link nav-link"
                     href="#event"
-                    onclick="return follow(this)"
                     >Events</a
                   >
                 </li>
@@ -94,15 +97,20 @@
                   <a
                     class="link nav-link"
                     href="#student-ambassador"
-                    onclick="return follow(this)"
                     >Student Ambassador</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
                     class="link nav-link"
+                    href="#merchandise"
+                    >Merchandise</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="link nav-link"
                     href="#sponsor"
-                    onclick="return follow(this)"
                     >Sponsors</a
                   >
                 </li>
@@ -110,7 +118,6 @@
                   <a
                     class="link nav-link"
                     href="#teams"
-                    onclick="return follow(this)"
                     >Team</a
                   >
                 </li>
@@ -118,7 +125,6 @@
                   <a
                     class="link nav-link"
                     href="#contact"
-                    onclick="return follow(this)"
                     >Contact Us</a
                   >
                 </li>
@@ -128,118 +134,155 @@
         </div>
       </section>
 
-      
-
       <section class="body">
         <div class="container heading" id="home">
           <div class="row">
-            <div class="col-6 wow animate__animated animate__bounceInLeft" data-wow-delay="0.5s">
-            <h3>TIC TECH TOE</h3>
-          <h4>PRESENTS</h4>
-          <h1>UN<span>i</span>TRON 2023</h1>
-          <h4>THE OFFICIAL TECH FEST OF FIT</h4>
-          <h4 class="pt-0">On 17th, 18th & 19th March, 2023</h4>
-          </div>
-
-          <div class="col-6 count wow animate__animated animate__bounceInRight" data-wow-delay="0.5s">
-            <div class="container">
-            <div id="time">
-              <div class="circle" style="--clr: #ffffff;">
-                <div class="dots day_dot"></div>
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70" id="dd"></circle>
-                </svg>
-                <div id="days">00<br><span>Days</span></div>
-              </div>
-
-              <div class="circle" style="--clr: #ff2972;">
-                <div class="dots hr_dot"></div>
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70" id="hh"></circle>
-                </svg>
-                <div id="hours">00<br><span>Hours</span></div>
-              </div>
-
-              <div class="circle" style="--clr: #fee800;">
-                <div class="dots min_dot"></div>
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70" id="mm"></circle>
-                </svg>
-                <div id="minutes">00<br><span>Minutes</span></div>
-              </div>
-
-              <div class="circle" style="--clr: #04fc43;">
-                <div class="dots sec_dot"></div>
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70" id="ss"></circle>
-                </svg>
-                <div id="seconds">00<br><span>Seconds</span></div>
-              </div>
-
+            <div
+              class="col-6 wow animate__animated animate__bounceInLeft"
+              data-wow-delay="0.5s"
+            >
+              <h3>TIC TECH TOE</h3>
+              <h4>PRESENTS</h4>
+              <h1>UN<span>i</span>TRON 2023</h1>
+              <h4>THE OFFICIAL TECH FEST OF FIT</h4>
+              <h4 class="pt-0">On 17th, 18th & 19th March, 2023</h4>
             </div>
-          </div>
 
-            <!-- <h2 class="newYear">2023<br><span>Happy New Year</span></h2> -->
+            <div
+              class="col-6 count wow animate__animated animate__bounceInRight"
+              data-wow-delay="0.5s"
+            >
+              <div class="container">
+                <div id="time">
+                  <div class="circle" style="--clr: #ffffff">
+                    <div class="dots day_dot"></div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70" id="dd"></circle>
+                    </svg>
+                    <div id="days">00<br /><span>Days</span></div>
+                  </div>
 
-          </div>
+                  <div class="circle" style="--clr: #ff2972">
+                    <div class="dots hr_dot"></div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70" id="hh"></circle>
+                    </svg>
+                    <div id="hours">00<br /><span>Hours</span></div>
+                  </div>
 
+                  <div class="circle" style="--clr: #fee800">
+                    <div class="dots min_dot"></div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70" id="mm"></circle>
+                    </svg>
+                    <div id="minutes">00<br /><span>Minutes</span></div>
+                  </div>
+
+                  <div class="circle" style="--clr: #04fc43">
+                    <div class="dots sec_dot"></div>
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70" id="ss"></circle>
+                    </svg>
+                    <div id="seconds">00<br /><span>Seconds</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <h2 class="newYear">2023<br><span>Happy New Year</span></h2> -->
+            </div>
           </div>
         </div>
 
         <div class="container mx-auto about-us" id="about">
-          <div class="row justify-content-center wow animate__animated animate__zoomIn">
-          <h1 class="">Participate & Win Exciting Prizes</h1>
+          <div
+            class="row justify-content-center wow animate__animated animate__zoomIn"
+          >
+            <h1>About Us</h1>
+            <h4 class="headline">
+              UNiTRON 2023 is the 4th Annual National-level Tech Fest organized
+              by Tic-Tech-Toe, the official Technical Club of Future Institute
+              of Technology. It is a three-day extravaganza for all the Tech
+              Heads all around the country to showcase their work and compete
+              with the best in the business. With the plethora of events, and
+              new and exciting challenges, the tech aficionado inside you will
+              surely ignite the spark within you.<br><span>These are the various fields which we have in our Tech Fest</span>
+            </h4>
           </div>
           <div class="row justify-content-center">
-            <div class="col-sm-3 wow animate__animated animate__lightSpeedInLeft" data-wow-delay="0.5s">
-              <h4><i class="fa-solid fa-gear"></i>  Technical</h4>
-              <p>
+            <div
+              class="col-sm-3 wow animate__animated animate__lightSpeedInLeft"
+              data-wow-delay="0.5s"
+            >
+              <h4><i class="fa-solid fa-gear"></i> Technical</h4>
+              <!-- <p>
                 These events motivate students to participate in extra
                 cirricular activities based entirely on tech and enrich their
                 knowledge and experience in the area.
-              </p>
+              </p> -->
             </div>
-            <div class="col-sm-3 wow animate__animated animate__bounceInDown" data-wow-delay="0.5s">
-              <h4><i class="fa-solid fa-users"></i>  Non-Technical</h4>
-              <p>
+            <div
+              class="col-sm-3 wow animate__animated animate__bounceInDown"
+              data-wow-delay="0.5s"
+            >
+              <h4><i class="fa-solid fa-users"></i> Non-Technical</h4>
+              <!-- <p>
                 These events emphasize on nourishing students' leadership,
                 oratory, vocabulary and team management skills as stepping
                 stones for their future endeavours.
-              </p>
+              </p> -->
             </div>
-            <div class="col-sm-3 wow animate__animated animate__bounceInUp" data-wow-delay="0.5s">
-              <h4><i class="fa-solid fa-gamepad"></i>  Gaming</h4>
-              <p>
+            <div
+              class="col-sm-3 wow animate__animated animate__bounceInUp"
+              data-wow-delay="0.5s"
+            >
+              <h4><i class="fa-solid fa-gamepad"></i> Gaming</h4>
+              <!-- <p>
                 What can be a better source of refreshment other than gaming?
                 This section allows students to prove their prowess in the genre
                 of games they are habituated to while giving them a platform to
                 relax themselves from the daily push and pull.
-              </p>
+              </p> -->
             </div>
-            <div class="col-sm-3 wow animate__animated animate__lightSpeedInRight" data-wow-delay="0.5s">
-              <h4><i class="fa-solid fa-code"></i>  Coding</h4>
-              <p>
+            <div
+              class="col-sm-3 wow animate__animated animate__lightSpeedInRight"
+              data-wow-delay="0.5s"
+            >
+              <h4><i class="fa-solid fa-code"></i> Coding</h4>
+              <!-- <p>
                 Conceptual thinking with good typing accuracy gives students the
                 arena to fight real virtual world problems and here we are
                 providing a simulation to those challenges.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
 
         <div class="container mx-auto eve">
-          <div class="row justify-content-center eve-in wow animate__animated animate__rotateIn mb-1" id="event">
-            <h1 style="display: block;" class=""><span style="color: #00ffff;">EVENTS</span></h1>
+          <div
+            class="row justify-content-center eve-in wow animate__animated animate__rotateIn mb-1"
+            id="event"
+          >
+            <h1 style="display: block" class="">
+              <span style="color: #00ffff">EVENTS</span>
+            </h1>
           </div>
-          <div class="row justify-content-center eve-in wow animate__animated animate__rotateIn">
-            <h3 class="">Robotics, Coding, Treasure Hunt, Creativity & many more</h3>
+          <div
+            class="row justify-content-center eve-in wow animate__animated animate__rotateIn"
+          >
+            <h3 class="">
+              Robotics, Coding, Treasure Hunt, Creativity & many more
+            </h3>
           </div>
           <div class="row mx-auto eve-row">
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -250,7 +293,7 @@
                     <div class="container mx-auto">
                       <h4>The Walker</h4>
                       <h5>Technical</h5>
-                      <button class="btn btn-lg">Rules</button>
+                       <button class="btn btn-lg" >Rules</button>  <!-- onclick="window.open('')" -->
                       <button class="btn btn-lg">Register Now!</button>
                     </div>
                   </div>
@@ -258,7 +301,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -277,11 +324,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/accelerate.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/accelerate.png"
+                      alt=""
+                    />
                     <h5 class="text-center">ACCELERATE</h5>
                   </div>
                   <div class="back">
@@ -296,7 +351,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -315,7 +374,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -334,11 +397,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/get set code.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/get set code.png"
+                      alt=""
+                    />
                     <h5 class="text-center">GET SET CODE</h5>
                   </div>
                   <div class="back">
@@ -353,7 +424,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -372,11 +447,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/spot e py.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/spot e py.png"
+                      alt=""
+                    />
                     <h5 class="text-center">SPOT-E-PY</h5>
                   </div>
                   <div class="back">
@@ -391,11 +474,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/span the gap.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/span the gap.png"
+                      alt=""
+                    />
                     <h5 class="text-center">SPAN THE GAP</h5>
                   </div>
                   <div class="back">
@@ -410,11 +501,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/quest for the hidden.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/quest for the hidden.png"
+                      alt=""
+                    />
                     <h5 class="text-center">QUEST FOR THE HIDDEN</h5>
                   </div>
                   <div class="back">
@@ -429,7 +528,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -448,7 +551,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -467,7 +574,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -486,11 +597,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/cholochitra.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/cholochitra.png"
+                      alt=""
+                    />
                     <h5 class="text-center">চলচ্চিত্র-Cholochitra</h5>
                   </div>
                   <div class="back">
@@ -505,7 +624,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -524,11 +647,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/entranced.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/entranced.png"
+                      alt=""
+                    />
                     <h5 class="text-center">ENTRANCED</h5>
                   </div>
                   <div class="back">
@@ -542,16 +673,25 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
         <div class="container mx-auto eve mt-5">
-          <div class="row justify-content-center eve-in wow animate__animated animate__flipInY">
-            <h2 class=""><span style="color: #ffffff;">Gaming<span style="font-size: 50px">🎮</span></span></h2>
+          <div
+            class="row justify-content-center eve-in wow animate__animated animate__flipInY"
+          >
+            <h2 class="">
+              <span style="color: #ffffff"
+                >Gaming<span style="font-size: 50px">🎮</span></span
+              >
+            </h2>
           </div>
           <div class="row mx-auto eve-row">
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -570,7 +710,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -589,7 +733,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -608,7 +756,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -627,11 +779,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <!-- <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/free fire.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/free fire.png"
+                      alt=""
+                    />
                     <h5 class="text-center">FREE FIRE</h5>
                   </div>
                   <div class="back">
@@ -644,9 +804,40 @@
                   </div>
                 </div>
               </div>
+            </div> -->
+
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container mx-auto img">
+                <div class="card">
+                  <div class="front">
+                    <img
+                      class="img-fluid"
+                      src="EventPic/8 ball pool.png"
+                      alt=""
+                    />
+                    <h5 class="text-center">8 BALL POOL</h5>
+                  </div>
+                  <div class="back">
+                    <div class="container mx-auto">
+                      <h4>8 Ball Pool</h4>
+                      <h5>Spot Event</h5>
+                      <button class="btn btn-lg">Rules</button>
+                      <button class="btn btn-lg">Register Now!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -665,7 +856,11 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
@@ -684,11 +879,19 @@
               </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <!-- <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container mx-auto img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/Clash Royale.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/Clash Royale.png"
+                      alt=""
+                    />
                     <h5 class="text-center">CLASH ROYALE</h5>
                   </div>
                   <div class="back">
@@ -701,15 +904,47 @@
                   </div>
                 </div>
               </div>
+            </div> -->
+
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container mx-auto img">
+                <div class="card">
+                  <div class="front">
+                    <img class="img-fluid" src="EventPic/ludo.png" alt="" />
+                    <h5 class="text-center">LUDO</h5>
+                  </div>
+                  <div class="back">
+                    <div class="container mx-auto">
+                      <h4>Ludo</h4>
+                      <h5>Spot Event</h5>
+                      <button class="btn btn-lg">Rules</button>
+                      <button class="btn btn-lg">Register Now!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
-          
-          <div class="row mx-auto eve-row">
-            <div class="col-md-6 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+
+          <!-- <div class="row mx-auto eve-row">
+            <div
+              class="col-md-6 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container float-right img">
                 <div class="card">
                   <div class="front">
-                    <img class="img-fluid" src="EventPic/8 ball pool.png" alt="" />
+                    <img
+                      class="img-fluid"
+                      src="EventPic/8 ball pool.png"
+                      alt=""
+                    />
                     <h5 class="text-center">8 BALL POOL</h5>
                   </div>
                   <div class="back">
@@ -724,7 +959,11 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-md-6 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
                 <div class="card">
                   <div class="front">
@@ -742,26 +981,98 @@
                 </div>
               </div>
             </div>
-          </div>
+
+          </div> -->
         </div>
 
-        <div class="container mx-auto text-center student" id="student-ambassador">
-          <h1 class="wow animate__animated animate__bounceInDown" data-wow-delay="0.5s">WANT TO BE THE FACE OF UNiTRON'23?</h1>
-          <h3 class="wow animate__animated animate__bounceInUp" data-wow-delay="1s">CAMPUS AMBASSADOR PROGRAM</h3>
-          <h5 class="wow animate__animated animate__lightSpeedInLeft" data-wow-delay="1.5s">JOIN WITH US</h5>
-          <p class="wow animate__animated animate__lightSpeedInRight" data-wow-delay="2s">
+        <div
+          class="container mx-auto text-center student"
+          id="student-ambassador"
+        >
+          <h1
+            class="wow animate__animated animate__bounceInDown"
+            data-wow-delay="0.5s"
+          >
+            WANT TO BE THE FACE OF UNiTRON'23?
+          </h1>
+          <h3
+            class="wow animate__animated animate__bounceInUp"
+            data-wow-delay="1s"
+          >
+            CAMPUS AMBASSADOR PROGRAM
+          </h3>
+          <h5
+            class="wow animate__animated animate__lightSpeedInLeft"
+            data-wow-delay="1.5s"
+          >
+            JOIN WITH US
+          </h5>
+          <p
+            class="wow animate__animated animate__lightSpeedInRight"
+            data-wow-delay="2s"
+          >
             Become a Campus Ambassador and get a chance to win exciting goodies
           </p>
           <center>
-            <button type="submit" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeLFYnar92vaF6T_YyiMA5-yuaL3axQPlvHL9HL6iwf8Wnc3w/viewform')" class="btn btn-lg wow animate__animated animate__zoomInUp" data-wow-delay="2.5s">Apply Now</button>
+            <button
+              type="submit"
+              onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeLFYnar92vaF6T_YyiMA5-yuaL3axQPlvHL9HL6iwf8Wnc3w/viewform')"
+              class="btn btn-lg wow animate__animated animate__zoomInUp"
+              data-wow-delay="2.5s"
+            >
+              Apply Now
+            </button>
           </center>
         </div>
 
-        <div class="container mx-auto text-center sponsor wow animate__animated animate__zoomIn" id="sponsor">
-          <h1>SPONSORS</h1>
+        <div
+          class="container mx-auto text-center student"
+          id="merchandise"
+        >
+          <h1
+            class="wow animate__animated animate__bounceInDown"
+            data-wow-delay="0.5s"
+          >
+            Interested to buy our <span style="color: cyan;">Merchandise!!!</span>
+          </h1>
+          <!-- <h3
+            class="wow animate__animated animate__bounceInUp"
+            data-wow-delay="1s"
+          >
+            CAMPUS AMBASSADOR PROGRAM
+          </h3> -->
+          <h5
+            class="wow animate__animated animate__lightSpeedInLeft"
+            data-wow-delay="1.5s"
+          >
+            Place your order now
+          </h5>
+          <p
+            class="wow animate__animated animate__lightSpeedInRight"
+            data-wow-delay="2s"
+          >
+            Limited stocks only
+          </p>
+          <center>
+            <button
+              type="submit"
+              onclick="window.open('https://bit.ly/UNiTRON23_Merchandise')"
+              class="btn btn-lg wow animate__animated animate__zoomInUp"
+              data-wow-delay="2.5s"
+            >
+              Buy Now
+            </button>
+          </center>
+        </div>
+
+        <div
+          class="container mx-auto text-center sponsor wow animate__animated animate__zoomIn"
+          id="sponsor"
+        >
+          <h1>SPONSORS & PARTNERS</h1>
           <div class="row">
             <div class="col-lg-12 img mx-auto">
-              <img src="Sponsor/Website Sponsor.png" alt="" class="img-fluid">
+              <img src="Sponsor/Website Sponsor.png" alt="" class="img-fluid" />
             </div>
             <!-- <div class="col-lg-12 img mx-auto">
               <img src="Sponsor/Website Sponsor.png" alt="" class="img-fluid">
@@ -776,250 +1087,343 @@
         </div>
 
         <div class="container mx-auto team">
-          <div class="row justify-content-center our-team wow animate__animated animate__flipInX" id="teams">
-            <h1 class=""><span style="color: #00ffff;">CORE</span> TEAM</h1>
+          <div
+            class="row justify-content-center our-team wow animate__animated animate__flipInX"
+            id="teams"
+          >
+            <h1 class=""><span style="color: #00ffff">CORE</span> TEAM</h1>
           </div>
           <div class="row mx-auto team-row">
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
-             <div class="container img">
-               <img class="img-fluid" src="team/biswa.png" alt="" />
-               <div class="container">
-                <h4>Biswajyoti Debnath</h4>
-                <h5>President</h5>
-                <h6>+91 74392 97582</h6>
-               </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
-             <div class="container img">
-               <img class="img-fluid" src="team/gaurav.png" alt="" />
-               <div class="container">
-                <h4>Gaurav Kumar</h4>
-                <h5>Secretary</h5>
-                <h6>+91 92976 99987</h6>
-               </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/prathama.png" alt="" />
+                <img class="img-fluid" src="team/biswa.png" alt="" />
+                <div class="container">
+                  <h4>Biswajyoti Debnath</h4>
+                  <h5>President</h5>
+                  <h6>+91 74392 97582</h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container img">
+                <img class="img-fluid" src="team/gaurav.png" alt="" />
+                <div class="container">
+                  <h4>Gaurav Kumar</h4>
+                  <h5>Secretary</h5>
+                  <h6>+91 92976 99987</h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container img">
+                <img class="img-fluid" src="team/prathama.png" alt="" />
                 <div class="container">
                   <h4>Prathama Ghosh</h4>
                   <h5>Joint Secretary</h5>
                   <h6>+91 89818 31237</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/arpita.png" alt="" />
+                <img class="img-fluid" src="team/arpita.png" alt="" />
                 <div class="container">
                   <h4>Arpita Pal</h4>
                   <h5>Administrator</h5>
                   <h6>+91 93301 70252</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/shreya.png" alt="" />
+                <img class="img-fluid" src="team/shreya.png" alt="" />
                 <div class="container">
                   <h4>Shreya Basu</h4>
                   <h5>Treasurer</h5>
                   <h6>+91 79803 68557</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/sandip.png" alt="" />
+                <img class="img-fluid" src="team/sandip.png" alt="" />
                 <div class="container">
                   <h4>Sandip Kumar Hazra</h4>
                   <h5>Technical Head</h5>
                   <h6>+91 84362 37470</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/suchitran.png" alt="" />
+                <img class="img-fluid" src="team/suchitran.png" alt="" />
                 <div class="container">
                   <h4>Suchitran Das</h4>
                   <h5>Technical Head</h5>
                   <h6>+91 98314 32252</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/sayan.png" alt="" />
+                <img class="img-fluid" src="team/sayan.png" alt="" />
                 <div class="container">
                   <h4>Sayan Mistry</h4>
                   <h5>Technical Head</h5>
                   <h6>+91 93306 62946</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/prantik.png" alt="" />
+                <img class="img-fluid" src="team/prantik.png" alt="" />
                 <div class="container">
                   <h4>Prantik Dutta</h4>
                   <h5>Technical Head</h5>
                   <h6>+91 79807 81646</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/chandan.png" alt="" />
+                <img class="img-fluid" src="team/chandan.png" alt="" />
                 <div class="container">
                   <h4>Chandan Roy</h4>
                   <h5>Technical Head</h5>
                   <h6>+91 76999 71288</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/jigar.png" alt="" />
+                <img class="img-fluid" src="team/jigar.png" alt="" />
                 <div class="container">
                   <h4>Jigar Pratap Singh</h4>
                   <h5>Non-Technical Head</h5>
                   <h6>+91 83349 21108</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/soumee.png" alt="" />
+                <img class="img-fluid" src="team/soumee.png" alt="" />
                 <div class="container">
                   <h4>Soumee Das</h4>
                   <h5>Non-Technical Head</h5>
                   <h6>+91 79801 21548</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/soumyadeep.png" alt="" />
+                <img class="img-fluid" src="team/soumyadeep.png" alt="" />
                 <div class="container">
                   <h4>Soumyadeep Chakraborty</h4>
                   <h5>Coding Head</h5>
                   <h6>+91 79805 18221</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/nilanjan.png" alt="" />
+                <img class="img-fluid" src="team/nilanjan.png" alt="" />
                 <div class="container">
                   <h4>Nilanjan Sarkar</h4>
                   <h5>Coding Head</h5>
                   <h6>+91 70745 46747</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/debjit.png" alt="" />
+                <img class="img-fluid" src="team/debjit.png" alt="" />
                 <div class="container">
                   <h4>Debjit Dutta</h4>
                   <h5>Gaming Head</h5>
                   <h6>+91 89819 20981</h6>
-                 </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+            <div
+              class="col-lg-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
               <div class="container img">
-                <img class="img-fluid"  src="team/pratik.png" alt="" />
+                <img class="img-fluid" src="team/pratik.png" alt="" />
                 <div class="container">
                   <h4>Pratik Chandra Roy</h4>
                   <h5>Gaming Head</h5>
                   <h6>+91 87774 85845</h6>
-                 </div>
-              </div>
-            </div>
-            </div>
-            
-            <div class="row mx-auto team-row">
-              <div class="col-md-3"></div>
-              <div class="col-md-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
-                <div class="container img">
-                  <img class="img-fluid"  src="team/sanket.png" alt="" />
-                  <div class="container">
-                    <h4>Sanket Sarkar</h4>
-                    <h5>Design Head</h5>
-                    <h6>+91 70449 84721</h6>
-                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
-                <div class="container img">
-                  <img class="img-fluid"  src="team/rohit.png" alt="" />
-                  <div class="container">
-                    <h4>Rohit Bhattacharya</h4>
-                    <h5>Sponsor Head</h5>
-                    <h6>+91 96742 33197</h6>
-                   </div>
-                </div>
-              </div>
-              </div>
-
-            <div class="row">
-            <div class="col-lg-12 text-center coord  wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
-              <h2><span style="color: #00ffff;">Coordinator</span> Team</h2>
-              <div class="r">
-                <div class="c1">
-              <h3>Ankur Mondal</h3>
-              <h3>Anubhab Saha</h3>
-              <h3>Aritra Pal</h3>
-              <h3>Arunava Pal</h3>
-              <h3>Atib Ashar</h3>
-              <h3>Atri Choudhury</h3>
-              <h3>Brishti Pradhan</h3>
-              <h3>Madhurima Chakraborty</h3>
-              <h3>Rahul Basak</h3>
-            </div>
-            <div class="c2">
-              <h3>Sadaf Nasim</h3>
-              <h3>Sayantani Paul</h3>
-              <h3>Sayantika Dutta</h3>
-              <h3>Shreyona Basak</h3>
-              <h3>Somali Sikdar</h3>
-              <h3>Sreya Debnath</h3>
-              <h3>Srishti Manna</h3>
-              <h3>Supratip Santra</h3>
-              <h3>Vaibhav Sinha</h3>
-            </div>
-            </div>
             </div>
           </div>
 
-            <!-- <div class="col-lg-12 text-center crew  wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
+          <div class="row mx-auto team-row">
+            <div class="col-md-3"></div>
+            <div
+              class="col-md-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container img">
+                <img class="img-fluid" src="team/sanket.png" alt="" />
+                <div class="container">
+                  <h4>Sanket Sarkar</h4>
+                  <h5>Design Head</h5>
+                  <h6>+91 70449 84721</h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-3 col-sm-6 col-xs-12 wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <div class="container img">
+                <img class="img-fluid" src="team/rohit.png" alt="" />
+                <div class="container">
+                  <h4>Rohit Bhattacharya</h4>
+                  <h5>Sponsor Head</h5>
+                  <h6>+91 96742 33197</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-lg-12 text-center coord wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+              data-wow-duration="0.8s"
+            >
+              <h2><span style="color: #00ffff">Coordinator</span> Team</h2>
+              <div class="r">
+                <div class="c1">
+                  <h3>Ankur Mondal</h3>
+                  <h3>Anubhab Saha</h3>
+                  <h3>Aritra Pal</h3>
+                  <h3>Arunava Pal</h3>
+                  <h3>Atib Ashar</h3>
+                  <h3>Atri Choudhury</h3>
+                  <h3>Brishti Pradhan</h3>
+                  <h3>Madhurima Chakraborty</h3>
+                  <h3>Rahul Basak</h3>
+                </div>
+                <div class="c2">
+                  <h3>Sadaf Nasim</h3>
+                  <h3>Sayantani Paul</h3>
+                  <h3>Sayantika Dutta</h3>
+                  <h3>Shreyona Basak</h3>
+                  <h3>Somali Sikdar</h3>
+                  <h3>Sreya Debnath</h3>
+                  <h3>Srishti Manna</h3>
+                  <h3>Supratip Santra</h3>
+                  <h3>Vaibhav Sinha</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-12 text-center crew  wow animate__animated animate__fadeIn" data-wow-delay="0.5s" data-wow-duration="0.8s">
               <h2>Crew Team</h2>
               <p>Members</p>
               <p>Members</p>
             </div> -->
+        </div>
 
-          </div>
-        </div>      
-
-      <!-- start contact -->
-    	<!-- <section id="conts"> -->
+        <!-- start contact -->
+        <!-- <section id="conts"> -->
         <div class="footer1" id="contact">
           <div class="container mx-auto">
             <div class="row">
               <div class="col-md-12 text-center pb-4">
-                <h2 class="wow animate__animated animate__bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>INFO</span></h2>
+                <h2
+                  class="wow animate__animated animate__bounceIn"
+                  data-wow-offset="50"
+                  data-wow-delay="0.3s"
+                >
+                  CONTACT <span>INFO</span>
+                </h2>
               </div>
-              <div class="col-md-12 text-center col-sm-6 col-xs-12 wow animate__animated animate__fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
+              <div
+                class="col-md-12 text-center col-sm-6 col-xs-12 wow animate__animated animate__fadeInLeft"
+                data-wow-offset="50"
+                data-wow-delay="0.9s"
+              >
                 <address>
                   <!-- <p class="address-title">ADDRESS</p> -->
-                  <p><i class="fa fa-university"></i> Future Institute of Technology, Kolkata</p>
+                  <p>
+                    <i class="fa fa-university"></i> Future Institute of
+                    Technology, Kolkata
+                  </p>
                   <p><i class="fa fa-phone"></i> +91 70444 87740</p>
                   <p><i class="fa fa-envelope-o"></i> unitron.fit@gmail.com</p>
-                  <p><i class="fa fa-map-marker"></i> 240, Boral Main Road, Garia, Kolkata, West Bengal, 700154, India</p>
+                  <p>
+                    <i class="fa fa-map-marker"></i> 240, Boral Main Road,
+                    Garia, Kolkata, West Bengal, 700154, India
+                  </p>
                 </address>
                 <!-- <ul class="social-icon">
                   <li><h4>CONNECT WITH US</h4></li>
@@ -1042,7 +1446,10 @@
           </div>
         </div>
 
-        <section class="text-center wow animate__animated animate__zoomIn" id="copyright">
+        <section
+          class="text-center wow animate__animated animate__zoomIn"
+          id="copyright"
+        >
           <h6>Copyright © 2023 TEAM UNiTRON</h6>
         </section>
 
@@ -1099,10 +1506,9 @@
             </ul>
           </div>
         </div>
-
       </section>
-    	<!-- </section> -->
-    	<!-- end contact -->
+      <!-- </section> -->
+      <!-- end contact -->
 
       <!-- <div class="footer">
         <div class="container mx-auto text-center sponsor" id="conts">
@@ -1119,26 +1525,30 @@
       </div> -->
     </main>
   </body>
-  <script
+  <!-- <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"
-  ></script>
-  <script
+  ></script> -->
+  <!-- <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"
-  ></script>
-  <script
+  ></script> -->
+  <!-- <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-  <script
+  <!-- <script
     src="https://kit.fontawesome.com/1a67f6e526.js"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/popper.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/font.awesome.js" type="text/javascript"></script>
   <script src="js/popper.js" type="text/javascript"></script>
   <script src="js/tippy.js" type="text/javascript"></script>
   <script src="js/script.js" type="text/javascript"></script>
