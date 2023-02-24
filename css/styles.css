@@ -780,6 +780,10 @@ body {
   }
 } */
 
+/* .social {
+  z-index: 100;
+} */
+
 .social a {
   color: white;
 }
@@ -790,6 +794,7 @@ body {
   position: fixed;
   left: 2px;
   bottom: 20px;
+  z-index: 100;
 }
 
 .wrapper .icon {
