@@ -919,13 +919,21 @@ body {
   right: 0;
   padding-bottom: 10px;
   padding-top: 20px;
+  position: relative;
+}
+
+.footer1 address {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .gmap iframe {
   aspect-ratio: 4/3;
-  width: 350px;
+  width: 500px;
   border: none;
   border-radius: 20px;
+  margin: auto;
 }
 
 #copyright {
