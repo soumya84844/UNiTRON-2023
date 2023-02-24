@@ -1499,4 +1499,4 @@
     F
   );
 });
-//# sourceMappingURL=tippy-bundle.umd.min.js.map
+// sourceMappingURL=tippy-bundle.umd.min.js.map
