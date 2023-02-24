@@ -911,6 +911,13 @@ body {
   padding-top: 20px;
 }
 
+.gmap iframe {
+  aspect-ratio: 4/3;
+  width: 350px;
+  border: none;
+  border-radius: 20px;
+}
+
 #copyright {
   display: block;
   padding: 0;
