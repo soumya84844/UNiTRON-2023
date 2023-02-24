@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
 /* .modal {
   position: fixed;
   top: 50%;
