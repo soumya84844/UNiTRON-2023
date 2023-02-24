@@ -434,13 +434,13 @@ body {
   margin-top: 200px;
 }
 
-.student .btn::first-line {
+.student .btn-lg::first-line {
   text-transform: capitalize;
 }
 
-.student .btn {
+/* .student .btn-lg {
   margin-top: 0;
-}
+} */
 
 .student h1 {
   font-size: 300%;
@@ -725,7 +725,7 @@ body {
   color: #fff;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  animation: rotate 0.7s ease-in-out both;
+  animation: rotate 0.7s ease-in-out both !important;
 }
 .btn:before,
 .btn:after {
@@ -769,11 +769,11 @@ body {
     transform: rotate(0deg);
   }
 }
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .btn {
     margin-bottom: 20px;
   }
-}
+} */
 
 .social a {
   color: white;
