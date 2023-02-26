@@ -315,7 +315,7 @@ body {
 
 .about-us .row p, h4 {
   text-align: left;
-  padding: 10px 0;
+  padding-left: 10px;
 }
 
 .about-us .row i {
@@ -338,7 +338,7 @@ body {
   color: white;
 }
 .eve-in h1 {
-  font-size: 300%;
+  font-size: 25px;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -465,6 +465,8 @@ body {
   position: relative;
   color: white;
   margin-top: 200px;
+  padding-right:5px;
+  padding-left:5px;
   width: 100%;
 }
 
@@ -950,4 +952,115 @@ body {
 #copyright h6 {
   margin: 0;
   padding: 10px 0;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+	#events {
+		padding: 0px 8px;
+	}
+}
+
+
+@media only screen and ( max-width: 980px ) {
+	 /* #team .team-wrapper
+		{
+			margin-top: 40px;
+		}  */
+	#events 
+	{
+		background: #fa07c5;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 98%;
+		height: 99%;
+		opacity: 0;
+		position: absolute;
+		padding: 40px 10px 20px 20px;
+	}
+  .test_1 {
+    padding-left: 25px;;
+    font-size: 35px;
+  }
+
+  #headline
+  {
+    text-align: center;
+    padding-left: 25px;
+    font-size: 50px;
+  }
+
+  
+
+  .test_3{
+    font-size: 35px;
+  }
+  
+
+}
+
+
+@media only screen and ( max-width:980px ){
+  #time .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+  #time .circle svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+    display: none;
+  }
+  
+  #time .circle svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 8;
+    stroke: #282828;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+  }
+  
+
+  #time div {
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  #time div span {
+    position: absolute;
+    transform: translateX(-50%) translateY(-10px);
+    font-size: 0.35em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #time .dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1000;
+  }
+  
+
+
+
 }
