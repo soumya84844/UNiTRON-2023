@@ -1353,24 +1353,68 @@
 
         <!-- start contact -->
         <!-- <section id="conts"> -->
+          <div class="container social">
+            <div class="container">
+              <ul class="wrapper">
+                <li
+                  class="icon facebook"
+                  onclick="window.open('https://www.facebook.com/unitron.fit')"
+                >
+                  <span class="tooltip">Facebook</span>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </li>
+                <li
+                  class="icon instagram"
+                  onclick="window.open('https://www.instagram.com/unitron.fit/')"
+                >
+                  <span class="tooltip">Instagram</span>
+                  <span><i class="fab fa-instagram"></i></span>
+                </li>
+                <li
+                  class="icon whatsapp"
+                  onclick="window.open('https://wa.me/917044487740')"
+                >
+                  <span class="tooltip">WhatsApp</span>
+                  <span><i class="fa-brands fa-whatsapp"></i></span>
+                </li>
+                <li
+                  class="icon mail"
+                  onclick="window.open('mailto:unitron.fit@gmail.com')"
+                >
+                  <span class="tooltip">Mail</span>
+                  <span><i class="fa-sharp fa-solid fa-envelope"></i></span>
+                </li>
+                <li
+                  class="icon maps"
+                  onclick="window.open('https://goo.gl/maps/CStGet3WamKSZ8x86')"
+                >
+                  <span class="tooltip">Map</span>
+                  <span><i class="fa-solid fa-map-location-dot"></i></span>
+                </li>
+                <!-- <li class="icon twitter" onclick="location.href=">
+              <span class="tooltip">Twitter</span>
+              <span><i class="fab fa-twitter"></i></span>
+            </li> -->
+              </ul>
+            </div>
+          </div>
+
         <div class="footer1" id="contact">
           <div class="container mx-auto">
             <div class="row">
               <div class="col-md-12 text-center pb-4">
                 <h2
                   class="wow animate__animated animate__bounceIn"
-                  data-wow-offset="50"
                   data-wow-delay="0.3s"
                 >
                   CONTACT <span>INFO</span>
                 </h2>
               </div>
               <div
-                class="col-md-6 text-left col-sm-6 col-xs-12 wow animate__animated animate__fadeInLeft"
-                data-wow-offset="50"
+                class="col-md-6 text-left col-sm-6 col-xs-12 wow animate__animated animate__fadeInLeft address"
                 data-wow-delay="0.9s"
               >
-                <address>
+                <address class="justify-content-center">
                   <!-- <p class="address-title">ADDRESS</p> -->
                   <p>
                     <i class="fa fa-university"></i> Future Institute of
@@ -1389,7 +1433,7 @@
                               <li><a href="https://www.instagram.com/unitron_fit/" class="fa fa-instagram" target="_blank"></a></li>
                 </ul> -->
               </div>
-              <div class="col-md-6 col-sm-6 col-xs-12 text-center wow animate__animated animate__fadeInRight gmap" data-wow-offset="50" data-wow-delay="0.6s">
+              <div class="col-md-6 col-sm-6 col-xs-12 text-center wow animate__animated animate__fadeInRight gmap" data-wow-delay="0.6s">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3687.5999038893992!2d88.3744663!3d22.44408!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271c7c0372afb%3A0xdd2f223767c26a2!2sFuture%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1677243140447!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  
               </div>
             </div>
@@ -1411,51 +1455,6 @@
           </div>
         </div> -->
 
-        <div class="container social">
-          <div class="container">
-            <ul class="wrapper">
-              <li
-                class="icon facebook"
-                onclick="window.open('https://www.facebook.com/unitron.fit')"
-              >
-                <span class="tooltip">Facebook</span>
-                <span><i class="fab fa-facebook-f"></i></span>
-              </li>
-              <li
-                class="icon instagram"
-                onclick="window.open('https://www.instagram.com/unitron.fit/')"
-              >
-                <span class="tooltip">Instagram</span>
-                <span><i class="fab fa-instagram"></i></span>
-              </li>
-              <li
-                class="icon whatsapp"
-                onclick="window.open('https://wa.me/917044487740')"
-              >
-                <span class="tooltip">WhatsApp</span>
-                <span><i class="fa-brands fa-whatsapp"></i></span>
-              </li>
-              <li
-                class="icon mail"
-                onclick="window.open('mailto:unitron.fit@gmail.com')"
-              >
-                <span class="tooltip">Mail</span>
-                <span><i class="fa-sharp fa-solid fa-envelope"></i></span>
-              </li>
-              <li
-                class="icon maps"
-                onclick="window.open('https://goo.gl/maps/CStGet3WamKSZ8x86')"
-              >
-                <span class="tooltip">Map</span>
-                <span><i class="fa-solid fa-map-location-dot"></i></span>
-              </li>
-              <!-- <li class="icon twitter" onclick="location.href=">
-            <span class="tooltip">Twitter</span>
-            <span><i class="fab fa-twitter"></i></span>
-          </li> -->
-            </ul>
-          </div>
-        </div>
       </section>
       <!-- </section> -->
       <!-- end contact -->
@@ -1506,7 +1505,7 @@
   <script type="text/javascript" src="js/navbar.js"></script>
   <script src="js/wow.min.js" type="text/javascript"></script>
   <script>
-    new WOW().init();
+    new WOW( { mobile: false } ).init();
   </script>
   <!-- <script type="text/javascript" src="js/all.min.js"></script> -->
 </html>
