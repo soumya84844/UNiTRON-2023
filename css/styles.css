@@ -192,9 +192,15 @@ body {
   /* background: #2f363e; */
 }
 
+@media only screen and (max-width: 768px) {
+  #time {
+    width: 50px !important;
+  }
+}
+
 .count .container {
-  position: absolute;
-  left: 0;
+  /* position: absolute; */
+  /* left: 0; */
   padding: 0;
   margin: 0;
 }
@@ -276,7 +282,15 @@ body {
   box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
 }
 
-.newYear {
+ @media only screen and (max-width: 768px){
+
+  .heading .row {
+    display: block !important;
+  }
+  
+} 
+
+/* .newYear {
   font-size: 1em;
   font-weight: 500;
   color: #fff;
@@ -287,7 +301,7 @@ body {
 .newYear span {
   font-size: 0.5em;
   font-weight: 300;
-}
+} */
 
 /* Count Down end */
 
