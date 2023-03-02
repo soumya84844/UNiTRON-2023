@@ -566,6 +566,12 @@ body {
   color: #ffffff;
 }
 
+@media screen and (max-width: 1000px) {
+  .sep-team {
+    display: none;
+  }
+}
+
 .coord, .crew {
   margin-top: 100px;
 }
