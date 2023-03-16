@@ -55,7 +55,7 @@ let hr_dot = document.querySelector('.hr_dot');
 let min_dot = document.querySelector('.min_dot');
 let sec_dot = document.querySelector('.sec_dot');
 
-let endDate = '03/17/2023 00:00:00';
+let endDate = '03/17/2023 11:00:00';
 
 let x = setInterval(function() {
     let now = new Date(endDate).getTime();
